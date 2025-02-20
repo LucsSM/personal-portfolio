@@ -7,30 +7,31 @@
     <meta name="description" content="main page for a simple HTML-only website for roadmap.sh frontend project">
     <meta name="author" content="Lucas Silva Marra">
     <meta name="keywords" content="Frontend Developer, HTML, Web Development, roadmap.sh">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <title>Main Page</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="logo.png" alt="homepage logo">
-            <p>My Name</p>
+    <header class="head-menu">
+        <div class="logo-div">
+            <img class="header-item" src="logo.png" alt="homepage logo">
+            <p class="header-item">My Name</p>
         </div>
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="header-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="header-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="header-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                <li class="header-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="wrapper">
+        <section class="creator">
             <h1>Frontend Developer</h1>
-            <p>I build websites and things for the web.</p>
+            <p class="description">I build websites and things for the web.</p>
         </section>
-        <section>
+        <section class="column projects">
             <h2>Projects</h2>
             <ul>
                 <li>HTML Only Portfolio</li>
@@ -40,31 +41,33 @@
                 <li>Spotify Mock Page</li>
             </ul>
         </section>
-        <section>
+        <section class="column">
             <h2>Work Experience</h2>
             <h3>roadmap.sh</h3>
             <p>Solved all the frontend projects</p>
             <a href="https://roadmap.sh/u/lucasilva" target="_blank">Visit my Profile</a>
         </section>
-        <section>
-            <h2>Education</h2>
-            <div>
-                <h3>Alura</h3>
-                <p>Developed several projects with HTML, CSS and Javascript</p>
-            </div>
-            <div>
-                <h3>Federal University of Juiz de Fora (<abbr title="Universidade Federal de Juiz de Fora">UFJF</abbr>)</h3>
-                <p>Got a depper understanding of the basics of programing with programming logics free course</p>
-                <p>Developed several projects in C, Python and Javascript</p>
-            </div>
-            <div>
-                <h3>CS50</h3>
-                <p>Learned several conceps and got introduced to various programming languanges</p>
-                <p>Developed several projects in C, Python, SQL, Javascript, HTML and CSS</p>
+        <section class="column">
+            <div class="education">
+                <h2>Education</h2>
+                <div>
+                    <h3>Alura</h3>
+                    <p>Developed several projects with HTML, CSS and Javascript</p>
+                </div>
+                <div>
+                    <h3>Federal University of Juiz de Fora (<abbr title="Universidade Federal de Juiz de Fora">UFJF</abbr>)</h3>
+                    <p>Got a depper understanding of the basics of programing with programming logics free course</p>
+                    <p>Developed several projects in C, Python and Javascript</p>
+                </div>
+                <div>
+                    <h3>CS50</h3>
+                    <p>Learned several conceps and got introduced to various programming languanges</p>
+                    <p>Developed several projects in C, Python, SQL, Javascript, HTML and CSS</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="copyright">
         <p>&copy; all rights reserved 2025</p>
     </footer>
 </body>

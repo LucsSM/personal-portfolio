@@ -1,0 +1,92 @@
+:root {
+    --background-color: #dfd4d5;
+    --header-color: #766e6e;
+    --link-color: #fff0f0;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+.head-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    background-color: var(--header-color);
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.menu {
+    margin-right: 100px;
+}
+
+.header-item {
+    display: inline;
+    margin: 20px;
+    color: var(--link-color);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.nav-link:hover {
+    text-transform: uppercase;
+}
+
+.creator {
+    width: 100%;
+    flex-grow: 4;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: 22px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1 1 calc(33.333% - 10px);
+}
+
+.projects {
+    padding-left: 20px;
+}
+
+.projects h2 {
+    padding-left: 40px;
+}
+
+.education {
+    padding-right: 50px;
+    text-wrap: wrap;
+}
+
+.copyright {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+}
