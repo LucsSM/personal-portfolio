@@ -7,44 +7,47 @@
     <meta name="description" content="articles page for a simple HTML-only website for roadmap.sh frontend project">
     <meta name="author" content="Lucas Silva Marra">
     <meta name="keywords" content="Frontend Developer, HTML, Web Development, roadmap.sh">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <title>Articles</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="logo.png" alt="homepage logo">
-            <p>My Name</p>
+    <header class="head-menu">
+        <div class="logo-div">
+            <img class="head-item" src="logo.png" alt="homepage logo">
+            <p class="head-item">My Name</p>
         </div>
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="head-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="head-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="head-item"><a class="nav-link" href="#">Articles</a></li>
+                <li class="head-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <h2>Articles</h2>
-            <article>
-                <a href="https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/" target="_blank">
-                    <h3>&lt;article&gt; vs. &lt;section&gt;: How To Choose The Right One</h3>
-                </a>
-                <p>A deep dive into grouping HTML contents using &lt;article&gt; and &lt;section&gt; tag elements.</p>
-            </article>
-            <article>
-                <a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes" target="_blank"><h3>HTML, CSS e Javascript, quais as diferenças?</h3></a>
-                <p>A begginer friendly explanation of the differences between HTML, CSS and Javascript.</p>
-            </article>
-            <article>
-                <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"><h3>CSS Flexbox Layout Guide</h3></a>
-                <p>A simple yet detailed comprehensive guide to CSS flexbox layout.</p>
-            </article>
+            <h2 class="main-title">Articles</h2>
+            <div class="article-list">
+                <article class="article">
+                    <a href="https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/" target="_blank">
+                        <h3>&lt;article&gt; vs. &lt;section&gt;: How To Choose The Right One</h3>
+                    </a>
+                    <p>A deep dive into grouping HTML contents using &lt;article&gt; and &lt;section&gt; tag elements.</p>
+                </article>
+                <article class="article">
+                    <a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes" target="_blank"><h3>HTML, CSS e Javascript, quais as diferenças?</h3></a>
+                    <p>A begginer friendly explanation of the differences between HTML, CSS and Javascript.</p>
+                </article>
+                <article class="article">
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"><h3>CSS Flexbox Layout Guide</h3></a>
+                    <p>A simple yet detailed comprehensive guide to CSS flexbox layout.</p>
+                </article>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="copyright">
         <p>&copy; all rights reserved 2025</p>
     </footer>
 </body>
