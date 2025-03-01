@@ -9,22 +9,28 @@
     <meta name="keywords" content="Frontend Developer, HTML, Web Development, roadmap.sh">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=dark_mode,light_mode"/>
+    <script type="text/javascript" src="theme-switch.js" defer></script>
     <title>Main Page</title>
 </head>
-<body>
+<body data-theme="">
     <header class="head-menu">
         <div class="logo-div">
-            <img class="head-item" src="logo.png" alt="homepage logo">
-            <p class="head-item">My Name</p>
+            <img class="logo-div-item" src="logo.png" alt="homepage logo">
+            <p class="logo-div-item">My Name</p>
         </div>
-        <nav class="menu">
+        <nav>
             <ul>
-                <li class="head-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="head-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                <li class="head-item"><a class="nav-link" href="articles.html">Articles</a></li>
-                <li class="head-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li ><a class="nav-link" href="#">Home</a></li>
+                <li ><a class="nav-link" href="projects.html">Projects</a></li>
+                <li ><a class="nav-link" href="articles.html">Articles</a></li>
+                <li ><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <button id="theme-switch">
+            <span id="light-icon" class="material-symbols-outlined">light_mode</span>
+            <span id="dark-icon" class="material-symbols-outlined">dark_mode</span>
+        </button>
     </header>
     <main class="wrapper">
         <section class="creator">
@@ -34,18 +40,20 @@
         <section class="column projects">
             <h2>Projects</h2>
             <ul>
-                <li>HTML Only Portfolio</li>
-                <li>Secret Santa Generator</li>
-                <li>Video Repository</li>
-                <li>Shopping Cart</li>
-                <li>Spotify Mock Page</li>
+                <li class="projects-item">HTML Only Portfolio</li>
+                <li class="projects-item">Secret Santa Generator</li>
+                <li class="projects-item">Video Repository</li>
+                <li class="projects-item">Shopping Cart</li>
+                <li class="projects-item">Spotify Mock Page</li>
             </ul>
         </section>
         <section class="column">
             <h2>Work Experience</h2>
             <h3>roadmap.sh</h3>
             <p>Solved all the frontend projects</p>
-            <a href="https://roadmap.sh/u/lucasilva" target="_blank">Visit my Profile</a>
+            <div class="profile-link content-link">
+                <a href="https://roadmap.sh/u/lucasilva" target="_blank">Visit my Profile</a>
+            </div>
         </section>
         <section class="column">
             <div class="education">
