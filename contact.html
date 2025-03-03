@@ -19,12 +19,13 @@
             <img class="logo-div-item" src="logo.png" alt="homepage logo">
             <p class="logo-div-item">My Name</p>
         </div>
-        <nav>
-            <ul>
-                <li ><a class="nav-link" href="index.html">Home</a></li>
-                <li ><a class="nav-link" href="projects.html">Projects</a></li>
-                <li ><a class="nav-link" href="articles.html">Articles</a></li>
-                <li ><a class="nav-link" href="#">Contact</a></li>
+        <nav class="dropdown"> 
+            <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg></button>
+            <ul class="dropdown-content centered">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <button id="theme-switch">
@@ -48,7 +49,7 @@
                     <div>
                         <label for="message" hidden>Your message:</label>
                         <br>
-                        <textarea class="input" name="message" id="message" cols="50" rows="10" placeholder="Type tou message here" required></textarea>
+                        <textarea class="textarea" name="message" id="message" cols="50" rows="10" placeholder="Type your message here" required></textarea>
                     </div>
                 </fieldset>
                 <button class="button" type="submit">Send</button>
