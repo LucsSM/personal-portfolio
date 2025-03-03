@@ -21,6 +21,7 @@ https://roadmap.sh/projects/portfolio-website
 Use Google Fonts to enhance the typography of your website.
 
 Look into GitHub Pages or Cloudflare Pages to host your website for free.
+Used Vercel: https://personal-portfolio-rose-alpha.vercel.app/
 
 Add support for dark mode using CSS variables.
 <br>
