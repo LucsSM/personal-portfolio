@@ -40,6 +40,7 @@ body {
     padding: 0;
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 ul {
@@ -236,6 +237,8 @@ article {
     margin: 10px;
     background-color: var(--header-color);
     color: var(--link-color);
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
 }
 
 .button:hover {
